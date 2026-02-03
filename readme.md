@@ -9,7 +9,7 @@ This comprehensive data analysis project investigates the key factors influencin
  5. Advanced & Integrated Questions
 ## 📖 Introduction: The Melbourne Housing Puzzle
 ### Context & Motivation
-Melbourne's property market has experienced significant transformation over the past decade, characterized by rapid price change, changing buyer preferences, and evolving urban development patterns. Understanding what drives property values is crucial for multiple stakeholders:
+Melbourne's property market has experienced a significant transformation over the past decade, characterized by rapid price change, changing buyer preferences, and evolving urban development patterns. Understanding what drives property values is crucial for multiple stakeholders:
 
  1. Home Buyers: Seeking the best value for their investment
 
@@ -22,12 +22,11 @@ Melbourne's property market has experienced significant transformation over the 
  5. Urban Planners: Understanding spatial development patterns
 
 ### The Data Challenge
-With numerous variables influencing property prices—from objective metrics like land size and room count to subjective factors like neighborhood appeal—disentangling these influences requires systematic analysis
-
-questions answered includes:
- 1. stronge correlates and factores that influence the price
+With numerous variables influencing property prices—from objective metrics like land size and room count to subjective factors like neighbourhood appeal—disentangling these influences requires systematic analysis
+The questions answered include:
+ 1. Strong correlates and factors that influence the price
  2. Geospatial and location intelligence insight
- 3. Analysed Property Characteristics & Value
+ 3. Analyzed Property Characteristics & Value
  4. Business Insights
  5. Advanced modeling
 
@@ -44,7 +43,7 @@ Melbourne's property market during 2016-2017 reveals a diverse ecosystem with cl
 | 4 | **Landsize** | 0.069 | Very Weak | Positive | Surprisingly low correlation for what's usually a key factor |
 | 5 | **Propertycount** | -0.052 | Negligible | Negative | Minimal impact on pricing in this dataset |
 
- 2. The property prices vary by Regionname and the best regionname to the least in the average selling price, and the number of property sales are:
+ 2. The property prices vary by Regionname and the best regionname to the least in the average selling price, and the number of property sales is:
     1. Southern Metropolitan
     2. Eastern Metropolitan
     3. South-Eastern Metropolitan
@@ -53,7 +52,7 @@ Melbourne's property market during 2016-2017 reveals a diverse ecosystem with cl
     6. Eastern Victoria
     7. Northern Victoria
     8. Western Victoria
- 3. We also take a look on the price trend over the Date of sale (seasonality and yearly) we find out this:
+ 3. We also take a look at the price trend over the Date of sale (seasonality and yearly), we find out this:
     1. In the yearly case, there is no difference, and it is almost the same, with 2017 sales are slitly better than 2016.
     2. Seasonality, we came up with this visualization:
     ![](Pictors\output6.png)
@@ -74,9 +73,9 @@ CORRELATION RESULTS TABLE
 |-------------------|------------|---------------|--------------------------|
 | Distance from CBD | Price      | -0.1625       | Weak negative correlation|
 
-3. Modelling the relationship between Distance from the CBD and Price & Geospatial Hotspot Analysis gave us a really interesting result which shows us a lot of things.
+3. Modelling the relationship between Distance from the CBD and Price & Geospatial Hotspot Analysis gave us a really interesting result, which shows us a lot of things.
 
-The trend line between the price and the distance from CBD
+The trend line between the price and the distance from the CBD
 ======
  
  ![](Pictors\output3.png)
@@ -117,11 +116,11 @@ and that got answered by this table
 #### 🏢 The Agent Ecosystem: Who's Moving Melbourne's Market?
 
 The Melbourne real estate landscape is dominated by a mix of premium specialists and volume giants:
-1. the top sellers (real estate agents) are:
+1. The top sellers (real estate agents) are:
    1. Jellis
    2. Nelson
    3. Marshall
-   4. hockingstuart
+   4. Hockingstuart
    5. Barry
 2. The distribution of sales methods for each property type can show a lot of valuable insight for both real estate agents and peopol that with to find their dream home, and this visual can show exactly that:
 ![alt text](Pictors/output7.png)
@@ -157,7 +156,7 @@ The Melbourne real estate landscape is dominated by a mix of premium specialists
 
  In this section, I took a step further and used a new tool for me, which is considered a machine learning tool with sklearn.
 Here, we built a predictive model to predict the price.
-I also used sklearn and scipy to detect outlier and anomaly properties (the most unusual properties).
+I also used sklearn and scipy to detect outliers and anomaly properties (the most unusual properties).
 
 ### Challenges I Faced
   This project was not without its challenges, but it provided good learning opportunities:
@@ -171,7 +170,7 @@ Throughout this project, I deepened my understanding of the real estate market a
 
 Advanced Python Usage: Utilizing libraries such as Pandas for data manipulation, Seaborn and Matplotlib for data visualization, sklearn for machine learning and predictivity, and other libraries helped me perform complex data analysis tasks more efficiently.
 Data Cleaning Importance: I learned that thorough data cleaning and preparation are crucial before any analysis can be conducted, ensuring the accuracy of insights derived from the data.
-Strategic Skill Analysis: The project emphasized the importance of aligning one's skills with market demand. Understanding the relationship between variables allows for more strategic career planning in the real state industry.
+Strategic Skill Analysis: The project emphasized the importance of aligning one's skills with market demand. Understanding the relationship between variables allows for more strategic career planning in the real estate industry.
 
 ### Conclusion
 Melbourne's housing market demonstrates sophisticated but decipherable logic. While location provides the foundation of value, the interplay between property type, land utility, and local micro-markets creates a complex but pattern-rich ecosystem. The most successful market participants will be those who understand not just the primary drivers, but the exceptions and nuances revealed in this analysis.
